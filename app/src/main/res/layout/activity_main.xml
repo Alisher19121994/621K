@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center"
+        android:orientation="vertical">
+
+        <EditText
+            android:padding="5dp"
+            android:id="@+id/editTextDataAge_id"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:hint="Age"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/back"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#8F000000" />
+        <EditText
+            android:padding="5dp"
+            android:id="@+id/editTextDataSalary_id"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:hint="Salary"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/back"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#8F000000" />
+        <EditText
+            android:padding="5dp"
+            android:id="@+id/editTextDataWorkH_id"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:hint="Working Hours"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/back"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#8F000000" />
+        <EditText
+            android:padding="5dp"
+            android:id="@+id/editTextDataAdayOff_id"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:hint="A day Off"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/back"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#8F000000" />
+
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_1_saveData_id"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:autoSizeMaxTextSize="15dp"
+            android:background="#FFA000"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
